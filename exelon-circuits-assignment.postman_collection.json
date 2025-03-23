@@ -1,0 +1,752 @@
+{
+	"info": {
+		"_postman_id": "d7e2a370-3c80-4e38-8a20-7f15e807d27b",
+		"name": "exelon-circuits-assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38172370"
+	},
+	"item": [
+		{
+			"name": "Get All Products",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products"
+					]
+				},
+				"description": "to get all the products"
+			},
+			"response": [
+				{
+					"name": "Get All Products",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/products",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4175"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"104f-uIiNLK1gDgEx6XJ9R3v0r5JhYXw\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Mar 2025 20:05:45 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e0\",\n        \"productName\": \"Tipping the Velvet\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 53.74,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e1\",\n        \"productName\": \"Soumission\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 50.1,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e2\",\n        \"productName\": \"Sharp Objects\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 47.82,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e3\",\n        \"productName\": \"Sapiens: A Brief History of Humankind\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 54.23,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e4\",\n        \"productName\": \"The Requiem Red\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 22.65,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e5\",\n        \"productName\": \"The Dirty Little Secrets of Getting Your Dream Job\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 33.34,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e6\",\n        \"productName\": \"The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 17.93,\n        \"ratings\": 3\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e7\",\n        \"productName\": \"The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 22.6,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e8\",\n        \"productName\": \"The Black Maria\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 52.15,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e9\",\n        \"productName\": \"Starving Hearts (Triangular Trade Trilogy, #1)\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 13.99,\n        \"ratings\": 2\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ea\",\n        \"productName\": \"Shakespeare's Sonnets\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 20.66,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7eb\",\n        \"productName\": \"Set Me Free\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 17.46,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ec\",\n        \"productName\": \"Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 52.29,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ed\",\n        \"productName\": \"Rip it Up and Start Again\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 35.02,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ee\",\n        \"productName\": \"Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 57.25,\n        \"ratings\": 3\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ef\",\n        \"productName\": \"Olio\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 23.88,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7f0\",\n        \"productName\": \"Mesaerion: The Best Science Fiction Stories 1800-1849\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 37.59,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7f1\",\n        \"productName\": \"Libertarianism for Beginners\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 51.33,\n        \"ratings\": 2\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7f2\",\n        \"productName\": \"It's Only the Himalayas\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 45.17,\n        \"ratings\": 2\n    },\n    {\n        \"_id\": \"67e05fa46d76ae62d78a25e4\",\n        \"productName\": \"Wireless Bluetooth Headphones\",\n        \"price\": 199.99,\n        \"description\": \"Noise-canceling over-ear headphones with 40-hour battery life.\",\n        \"ratings\": 4.7,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e05fad6d76ae62d78a25e6\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e064166d76ae62d78a2605\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e064456d76ae62d78a2607\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e065876d76ae62d78a260d\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e067ae9d0185af79712fae\",\n        \"productName\": \"A Light in the Attic\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 51.77,\n        \"ratings\": 3\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Create New Product",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"productName\": \"Smart LED Desk Lamp\",\r\n  \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\r\n  \"price\": 45.50,\r\n  \"ratings\": 4.5\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/products?Content-Type=application/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					]
+				},
+				"description": "To update the post products"
+			},
+			"response": [
+				{
+					"name": "Create New Product",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"productName\": \"Smart LED Desk Lamp\",\r\n  \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\r\n  \"price\": 45.50,\r\n  \"ratings\": 4.5\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/products?Content-Type=application/json",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"products"
+							],
+							"query": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "182"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"b6-gX304gso3l6bl5WVoApHPcsax9c\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Mar 2025 20:06:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"productName\": \"Smart LED Desk Lamp\",\n    \"price\": 45.5,\n    \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n    \"ratings\": 4.5,\n    \"_id\": \"67e069bf505e092d3eb88804\",\n    \"__v\": 0\n}"
+				}
+			]
+		},
+		{
+			"name": "Update Product by ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Tipping the Velvet\",\r\n  \"price\": 1500,\r\n  \"description\": \"Updated Description\",\r\n  \"ratings\": 4.9\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/products/67deef7a3d2afa493b90c7e0?Content-Type\n\n=application/json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products",
+						"67deef7a3d2afa493b90c7e0"
+					],
+					"query": [
+						{
+							"key": "Content-Type\n\n",
+							"value": "application/json"
+						}
+					]
+				},
+				"description": "to update single product"
+			},
+			"response": [
+				{
+					"name": "Update Product by ID",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Tipping the Velvet\",\r\n  \"price\": 1500,\r\n  \"description\": \"Updated Description\",\r\n  \"ratings\": 4.9\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/products/67deef7a3d2afa493b90c7e0?Content-Type\n\n=application/json",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"products",
+								"67deef7a3d2afa493b90c7e0"
+							],
+							"query": [
+								{
+									"key": "Content-Type\n\n",
+									"value": "application/json"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "140"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"8c-Q34bO0I9WMWcuGvG9Jr3QPxQOcs\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Mar 2025 20:08:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_id\": \"67deef7a3d2afa493b90c7e0\",\n    \"productName\": \"Tipping the Velvet\",\n    \"__v\": 0,\n    \"description\": \"Updated Description\",\n    \"price\": 1500,\n    \"ratings\": 4.9\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Product by ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/products/67deef793d2afa493b90c7df",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products",
+						"67deef793d2afa493b90c7df"
+					]
+				},
+				"description": "to delete the product"
+			},
+			"response": [
+				{
+					"name": "Delete Product by ID",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/products/67deef793d2afa493b90c7df",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"products",
+								"67deef793d2afa493b90c7df"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "29"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1d-SUOjrQM9v/ZnWfd464qBypgAgyE\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Mar 2025 20:08:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Product deleted\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Filter Products by Price",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/products?price>100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "price>100",
+							"value": null
+						}
+					]
+				},
+				"description": "Filter Products by Price"
+			},
+			"response": [
+				{
+					"name": "Filter Products by Price",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/products?price>100",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"products"
+							],
+							"query": [
+								{
+									"key": "price>100",
+									"value": null
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4354"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1102-QPczMzdmOivybiGYF13Tz+ACMXk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Mar 2025 20:08:49 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e0\",\n        \"productName\": \"Tipping the Velvet\",\n        \"__v\": 0,\n        \"description\": \"Updated Description\",\n        \"price\": 1500,\n        \"ratings\": 4.9\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e1\",\n        \"productName\": \"Soumission\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 50.1,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e2\",\n        \"productName\": \"Sharp Objects\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 47.82,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e3\",\n        \"productName\": \"Sapiens: A Brief History of Humankind\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 54.23,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e4\",\n        \"productName\": \"The Requiem Red\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 22.65,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e5\",\n        \"productName\": \"The Dirty Little Secrets of Getting Your Dream Job\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 33.34,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e6\",\n        \"productName\": \"The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 17.93,\n        \"ratings\": 3\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e7\",\n        \"productName\": \"The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 22.6,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e8\",\n        \"productName\": \"The Black Maria\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 52.15,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e9\",\n        \"productName\": \"Starving Hearts (Triangular Trade Trilogy, #1)\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 13.99,\n        \"ratings\": 2\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ea\",\n        \"productName\": \"Shakespeare's Sonnets\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 20.66,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7eb\",\n        \"productName\": \"Set Me Free\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 17.46,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ec\",\n        \"productName\": \"Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 52.29,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ed\",\n        \"productName\": \"Rip it Up and Start Again\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 35.02,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ee\",\n        \"productName\": \"Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 57.25,\n        \"ratings\": 3\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ef\",\n        \"productName\": \"Olio\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 23.88,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7f0\",\n        \"productName\": \"Mesaerion: The Best Science Fiction Stories 1800-1849\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 37.59,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7f1\",\n        \"productName\": \"Libertarianism for Beginners\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 51.33,\n        \"ratings\": 2\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7f2\",\n        \"productName\": \"It's Only the Himalayas\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 45.17,\n        \"ratings\": 2\n    },\n    {\n        \"_id\": \"67e05fa46d76ae62d78a25e4\",\n        \"productName\": \"Wireless Bluetooth Headphones\",\n        \"price\": 199.99,\n        \"description\": \"Noise-canceling over-ear headphones with 40-hour battery life.\",\n        \"ratings\": 4.7,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e05fad6d76ae62d78a25e6\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e064166d76ae62d78a2605\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e064456d76ae62d78a2607\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e065876d76ae62d78a260d\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e067ae9d0185af79712fae\",\n        \"productName\": \"A Light in the Attic\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 51.77,\n        \"ratings\": 3\n    },\n    {\n        \"_id\": \"67e069bf505e092d3eb88804\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Filter Products by Rating",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/products?ratings>2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "ratings>2",
+							"value": null
+						}
+					]
+				},
+				"description": "Filter Products by Rating"
+			},
+			"response": [
+				{
+					"name": "Filter Products by Rating",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/products?ratings>2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"products"
+							],
+							"query": [
+								{
+									"key": "ratings>2",
+									"value": null
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4354"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1102-QPczMzdmOivybiGYF13Tz+ACMXk\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Mar 2025 20:09:08 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e0\",\n        \"productName\": \"Tipping the Velvet\",\n        \"__v\": 0,\n        \"description\": \"Updated Description\",\n        \"price\": 1500,\n        \"ratings\": 4.9\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e1\",\n        \"productName\": \"Soumission\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 50.1,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e2\",\n        \"productName\": \"Sharp Objects\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 47.82,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e3\",\n        \"productName\": \"Sapiens: A Brief History of Humankind\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 54.23,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e4\",\n        \"productName\": \"The Requiem Red\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 22.65,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e5\",\n        \"productName\": \"The Dirty Little Secrets of Getting Your Dream Job\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 33.34,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e6\",\n        \"productName\": \"The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 17.93,\n        \"ratings\": 3\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e7\",\n        \"productName\": \"The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 22.6,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e8\",\n        \"productName\": \"The Black Maria\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 52.15,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e9\",\n        \"productName\": \"Starving Hearts (Triangular Trade Trilogy, #1)\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 13.99,\n        \"ratings\": 2\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ea\",\n        \"productName\": \"Shakespeare's Sonnets\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 20.66,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7eb\",\n        \"productName\": \"Set Me Free\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 17.46,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ec\",\n        \"productName\": \"Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 52.29,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ed\",\n        \"productName\": \"Rip it Up and Start Again\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 35.02,\n        \"ratings\": 5\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ee\",\n        \"productName\": \"Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 57.25,\n        \"ratings\": 3\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ef\",\n        \"productName\": \"Olio\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 23.88,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7f0\",\n        \"productName\": \"Mesaerion: The Best Science Fiction Stories 1800-1849\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 37.59,\n        \"ratings\": 1\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7f1\",\n        \"productName\": \"Libertarianism for Beginners\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 51.33,\n        \"ratings\": 2\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7f2\",\n        \"productName\": \"It's Only the Himalayas\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 45.17,\n        \"ratings\": 2\n    },\n    {\n        \"_id\": \"67e05fa46d76ae62d78a25e4\",\n        \"productName\": \"Wireless Bluetooth Headphones\",\n        \"price\": 199.99,\n        \"description\": \"Noise-canceling over-ear headphones with 40-hour battery life.\",\n        \"ratings\": 4.7,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e05fad6d76ae62d78a25e6\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e064166d76ae62d78a2605\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e064456d76ae62d78a2607\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e065876d76ae62d78a260d\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"67e067ae9d0185af79712fae\",\n        \"productName\": \"A Light in the Attic\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 51.77,\n        \"ratings\": 3\n    },\n    {\n        \"_id\": \"67e069bf505e092d3eb88804\",\n        \"productName\": \"Smart LED Desk Lamp\",\n        \"price\": 45.5,\n        \"description\": \"Adjustable brightness, touch control, and USB charging port.\",\n        \"ratings\": 4.5,\n        \"__v\": 0\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Filter Products by Price & Rating",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/products?price>100&ratings=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products"
+					],
+					"query": [
+						{
+							"key": "price>100",
+							"value": null
+						},
+						{
+							"key": "ratings",
+							"value": "4"
+						}
+					]
+				},
+				"description": "Filter Products by Price & Rating"
+			},
+			"response": [
+				{
+					"name": "Filter Products by Price & Rating",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/products?price>100&ratings=4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"products"
+							],
+							"query": [
+								{
+									"key": "price>100",
+									"value": null
+								},
+								{
+									"key": "ratings",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "686"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2ae-zeaK6Z/IvmIyI/venYP/Jqxr0Hs\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Mar 2025 20:09:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e2\",\n        \"productName\": \"Sharp Objects\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 47.82,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e5\",\n        \"productName\": \"The Dirty Little Secrets of Getting Your Dream Job\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 33.34,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7e7\",\n        \"productName\": \"The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 22.6,\n        \"ratings\": 4\n    },\n    {\n        \"_id\": \"67deef7a3d2afa493b90c7ea\",\n        \"productName\": \"Shakespeare's Sonnets\",\n        \"__v\": 0,\n        \"description\": \"No description available\",\n        \"price\": 20.66,\n        \"ratings\": 4\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "Get Product by ID",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/products/67deef7a3d2afa493b90c7e0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"products",
+						"67deef7a3d2afa493b90c7e0"
+					]
+				},
+				"description": "Get Product by ID"
+			},
+			"response": [
+				{
+					"name": "Get Product by ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5000/api/products/67deef7a3d2afa493b90c7e0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"products",
+								"67deef7a3d2afa493b90c7e0"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "140"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"8c-Q34bO0I9WMWcuGvG9Jr3QPxQOcs\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 23 Mar 2025 20:10:36 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"_id\": \"67deef7a3d2afa493b90c7e0\",\n    \"productName\": \"Tipping the Velvet\",\n    \"__v\": 0,\n    \"description\": \"Updated Description\",\n    \"price\": 1500,\n    \"ratings\": 4.9\n}"
+				}
+			]
+		}
+	]
+}
